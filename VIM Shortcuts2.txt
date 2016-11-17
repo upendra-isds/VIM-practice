@@ -1,0 +1,47 @@
+Deletion options:
+
+    x =>  delete the character under the cursor
+    X => delete the character before the cursor (this basically, works like BACKSPACE)
+    dm =>  delete whatever you define as a movement, e.g. a word, or a sentence, or a paragraph.
+    dd => delete the current line
+    dt  => delete from where you are to the period
+    D => delete to the end of the line
+    J =>join the current line with the next one (delete what’s between)
+
+Undo and Redo:
+
+    u => undo last action
+    Ctrl+r => redo last action
+
+
+Usage of Period :
+
+Examples :-
+Action 1 : dw => delete a word
+
+3. =>  this will delete 3 words (Really useful)
+
+Action 2 : yy => yank a line and then did p for pasting it.
+Suppose, we need to paste the same five times.
+
+5. => this will paste the same line 5 times.
+
+ 
+Finding misspelled words :  [Found this really useful]
+
+To enable & disable,
+:set spell 
+:set nospell
+
+]s      Go to the next misspelled word
+
+[s    Go to the last misspelled word
+
+z=   When on a misspelled word, get some suggestions
+
+zg   Mark a misspelled word as correct
+
+
+
+
+
