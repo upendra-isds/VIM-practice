@@ -1,0 +1,39 @@
+﻿VI <filename>    => open a file in vim
+
+
+CNTRL + w  followed by (h/j/k/l) to move to the corresponding window when there are multiple windows => NEXT SPLIT SCREEN
+
+
+CNTRL + W followed by (h/j/k/l)   => PREVIOUS SPLIT SCREEN
+
+V [Visual mode] => this is effective only for the current line.
+
+a => start typing right after the current cursor position
+
+c => change the character at current cursor position.
+
+C => change the entire line from the current cursor position.
+
+
+search commands:
+
+/pattern       => search forward for pattern
+?pattern       =>  search backward
+n              => repeat forward search
+N              => repeat backward
+*              => search for word currently under cursor
+g*             => search for partial word under cursor(repeat with n)
+
+Copy commands:
+
+yy or Y => yank the current line, including the newline character at the end of the line
+y$ – yank to the end of the current line (but don't yank the newline character); note that many people like to remap Y to y$ in line with C and D
+yiw – yank the current word (excluding surrounding whitespace)
+yaw – yank the current word (including leading or trailing whitespace) 
+
+Paste commands:
+
+p => paste after the cursor
+P => paste before the cursor
+Variants gp and gP => move the cursor after the pasted text
+
